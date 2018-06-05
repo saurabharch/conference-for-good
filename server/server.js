@@ -25,7 +25,7 @@ if (!production) require('dotenv').load();
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 // TODO we need to change the below to use the mlab database used with heroku
-let mongoURI = process.env.MONGODB_URI || 'mongodb://localhost/ccaw-app';
+let mongoURI = process.env.MONGODB_URI || 'mongodb://promax:promax123@ds147440.mlab.com:47440/procon';
 mongoose.connect(mongoURI);
 
 /** True = get response details on served node modules **/
