@@ -27,7 +27,7 @@
     "@angular/http": "6.0.3",
     "@angular/platform-browser": "6.0.3",
     "@angular/platform-browser-dynamic": "6.0.3",
-    "@angular/router": "6.0.3",
+    "@angular/router": "6.1.10",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.2",
     "bootstrap-sass": "^3.3.7",
