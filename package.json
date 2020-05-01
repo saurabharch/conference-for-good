@@ -10,11 +10,13 @@
     "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --prod",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "private": true,
   "engines": {
-   "node": "8.11.2",
+    "node": "8.11.2",
     "npm": "6.1.0"
   },
   "dependencies": {
@@ -58,7 +60,8 @@
     "rxjs-compat": "^6.0.0-rc.0",
     "ts-helpers": "^1.1.1",
     "typescript": "^2.7.2",
-    "zone.js": "0.8.26"
+    "zone.js": "0.8.26",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.7.0-beta.1",
@@ -77,5 +80,6 @@
     "protractor": "5.3.2",
     "ts-node": "6.1.0",
     "tslint": "5.10.0"
-  }
+  },
+  "snyk": true
 }
