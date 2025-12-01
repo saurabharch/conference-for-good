@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@angular/cli": "^6.1.0-beta.0",
-    "@angular/common": "6.0.3",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "6.0.3",
     "@angular/compiler-cli": "^6.0.3",
     "@angular/core": "6.0.3",
